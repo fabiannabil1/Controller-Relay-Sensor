@@ -90,7 +90,7 @@ class _MQTTHomePageState extends State<MQTTHomePage> {
 
   // Sensor values with labels
   final Map<String, Map<String, dynamic>> _sensorValues = {
-    'S1': {'value': '--', 'label': 'Sensor Hujan', 'icon': Icons.water_drop},
+    'S1': {'value': '--', 'label': 'Hujan', 'icon': Icons.water_drop},
     'S2': {'value': '--', 'label': 'Kelembapan', 'icon': Icons.landscape},
     'S3': {'value': '--', 'label': 'Kelembapan', 'icon': Icons.air},
     'S4': {'value': '--', 'label': 'Suhu Udara', 'icon': Icons.thermostat},
